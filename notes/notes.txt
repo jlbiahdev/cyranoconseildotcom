@@ -1,0 +1,48 @@
+Objet           : site vitrine de Cyrano
+Type            : SPA
+Blocs : 
+    - Accueil : Menu + Contact  *
+    - Présentation              *
+    - Les clients
+    - Domaines d'expertise
+        - qui sommes nous
+        - nos references
+        - expertise
+        - produits
+        - contact-us
+    - Formulaire de contact
+    - Les Produits
+
+Pied de Page    : 
+    Menu
+    contact
+    Réseaux Sociaux
+
+La charte Graphique
+    Couleur #1 : #c9e4ca
+    Couleur #2 : #87bba2
+    Couleur #3 : #55828b
+    Couleur #4 : #3b6064
+    Couleur #4 : #364958
+
+Présentation :
+Cyrano Conseil est une société IT de conseil et d’ingénierie logicielle, spécialisée dans la chefferie de projet et le développement de logiciels de gestion dans le respect des normes et des standards de qualités établis. Depuis 16 ans, nos experts mettent leurs qualités au service aussi bien des grands groupes que des PME/ETI. Grâce à une équipe à taille humaine, Cyrano Conseil intervient comme un partenaire privilégié pour vous accompagner dans vos projets critiques IT. Cyrano Conseil met en place une forte proximité avec ses clients. Pour échanger ensemble sur vos projets, n'hésitez pas à visiter notre site internet - www.cyrano-conseil.com.
+
+Expertise :
+Notre expertise va de la chefferie de projet au développement de logiciels avec une spécialisation sur les technologies Microsoft allant de la base de données aux applications web et mobiles en passant par des API.
+
+Transformation Digitale :
+Nous vous accompagnons dans votre transformation digitale à travers notre maîtrise du traitement et de la mise en forme de données via le développement d’APIs, d’applications client lourd, d’applications web et mobiles.
+
+Chefferie de projet :
+A travers notre maîtrise de la chefferie de projet nous dirigerons et gérerons l'ensemble de votre projet. Nous veillons à ce que les budgets, les plannings et les objectifs soient respectés.
+
+Business Intelligence
+Notre expérience dans la collecte, l'intégration, l'analyse et la présentation de l'information vous permettra de soutenir une meilleure prise de décision commerciales, marketing, financières...
+
+Trello Scraper :
+
+Lyngwa :
+Obtenez des données sur les pays, les villes et les îles du monde entier.
+
+Obtenez des données sur les pays, les villes et les îles du monde entier. Filtrer par nom, iso de pays, devises... Il s'agit d'une API RESTful. Les données sont périodiquement actualisées. Si vous souhaitez héberger le service en interne, contactez-nous pour plus de détails.
