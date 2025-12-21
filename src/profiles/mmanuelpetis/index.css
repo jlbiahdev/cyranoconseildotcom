@@ -22,7 +22,7 @@
     --primary-color:#1D3251;
     --secondary-color: #CDEDDA;
     --title-color:#1D3251;
-    --text-color:#262626;
+    --text-color:#000000;
     --text-white:#fff;
     --dark-color: #222;
     --bar-color: #ccc;
@@ -96,10 +96,12 @@ h3 {
 
 /* ----- LINKS ----- */
 
+a,
 a:link,
 a:visited {
-    color: var(--quinary-forecolor);
+    color: var(--primary-color);
     font-size: 90%;
+    font-weight: 700;
     padding: 8px 0;
     text-decoration: none;
     transition: border-bottom 0.2s;

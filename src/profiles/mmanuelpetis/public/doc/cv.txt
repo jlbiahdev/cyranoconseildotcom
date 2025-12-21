@@ -1,0 +1,77 @@
+lastname : mfou’ou
+firstname : manuel petis
+title : Ingénieur Génie Civil
+
+about me
+Diplômé de l’Ecole Nationale Supérieure Polytechnique de Yaoundé 1 en filière Génie Civil, passionné de conception et dimensionnement d’ouvrages.
+
+contact
+location : Yaoundé, Cameroun
+email : manoumanuel19gmail.com
+phone : +237 697115067
+
+education
+school : Ecole Nationale Supérieure Polytechnique de Yaoundé 1
+year : 2021-2025
+diploma : Cycle Ingénieur, Génie Civil
+school : Université de Yaoundé 1
+year : 2021
+diploma : Licence en Mathématiques
+school : Lycée Classique et Moderne de Sangmélima
+year : 2018
+diploma : Baccalauréat scientifique, Série C 
+year : 2017
+diploma : Probatoire scientifique, Série C    
+year : 2015
+diploma : BEPC
+
+langues
+FR Français: Courant
+GB Anglais: Intermediaire
+
+
+skills
+Logiciels de CAO/DAO : 
+	- Revit, 70
+	- ArchiCAD, 70
+	- Robot Structural Analysis, 70
+	- Cype, 70
+	- Lumion
+Programmation et Calculs d'Ingénieurie : 
+	- MATLAB, 70
+	- Python 70
+Normes et Réglementations : 
+	- Eurocode 2, 70
+	- BAEL 99, 70
+Logiciel de modélisation de données : 
+	- Power BI, 70
+Pack Office : 
+	- Microsoft Word, 70
+	- Excel 70
+
+experiences
+title : Stage Pré-ingénieur
+company : HEAVY DUTY SARL Engineering
+location : Yaoundé, 
+year : Mai 2024-Septembre 2024:
+task-title : Conception et modélisation 3D sous Revit et ArchiCAD
+task-title : Dimensionnement des élément structuraux sous Robot Structural Analysis
+task-title : Suivi des travaux de réalisation des éléments structuraux (gros œuvres) pour la construction de l’Hôtel CRYTAL PALACE
+
+title : Stage ingénieur
+company : ERA-CAMEROUN
+location : Yaoundé, 
+year : Février 2025-Septembre 2025:
+task-title : Suivi des prestations de gestion des déchets dans la ville de Yaoundé
+ 
+title : Stage Professionnel
+company : Le Cieu SARL 
+location : Yaoundé, 
+year : Novembre 2025-Décembre 2025 :
+task-title : Suivi des travaux de finition du projet de construction de l’hôtel LA CONCORDE
+
+
+Il te faut un compte LinkedIn
+Une adresse mail professionnelle genre manuelmfouou@outlook.com
+Attribue une note sur 100 à tes skills
+Certains skills ont disparu de ton CV PDF.
