@@ -222,28 +222,30 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <form class="form-contact">
+                    <form class="form-contact" action="envoi.php" method="POST">
+                        <input type="hidden" name="formulaire" value="contact">
+                        <input type="text" name="site_web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position: absolute; left: -9999px;">
                         <div class="mb-3">
-                            <input type="text" id="name" class="form-control" placeholder="votre nom" aria-label="Votre nom" aria-describedby="name-addon">
+                            <input type="text" id="name" name="nom" class="form-control" placeholder="votre nom" aria-label="Votre nom" aria-describedby="name-addon" required maxlength="200">
                         </div>
                         <div class="mb-3">
-                            <input type="text" id="subject" class="form-control" placeholder="vous écrivez à propos de ..." aria-label="vous écrivez à propos de ..." aria-describedby="subject-addon">
+                            <input type="text" id="subject" name="sujet" class="form-control" placeholder="vous écrivez à propos de ..." aria-label="vous écrivez à propos de ..." aria-describedby="subject-addon" maxlength="200">
                         </div>
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="email-addon">@</span>
-                            <input type="email" id="email" class="form-control" placeholder="email" aria-label="Email" aria-describedby="email-addon">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="email" aria-label="Email" aria-describedby="email-addon" maxlength="200">
                         </div>
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="phone-addon">#</span>
-                            <input type="tel" id="phone" class="form-control" placeholder="phone" aria-label="Phone" aria-describedby="phone-addon">
+                            <input type="tel" id="phone" name="telephone" class="form-control" placeholder="phone" aria-label="Phone" aria-describedby="phone-addon" maxlength="200">
                         </div>
                         <div class="input-group">
                             <span class="input-group-text">Message</span>
-                            <textarea id="msg-body" class="form-control" aria-label="With textarea"></textarea>
+                            <textarea id="msg-body" name="message" class="form-control" aria-label="With textarea" required maxlength="5000"></textarea>
                         </div>
                         <div class="my-3">
                             <p class="text-center">
-                                <a href="#contactus" onclick="sendEmail(); return false;" class="btn btn-full">envoyez</a>
+                                <input type="submit" class="btn btn-full" value="envoyez">
                             </p>
                         </div>
                     </form>
@@ -268,32 +270,6 @@
             </div>
          </div>
     </footer>
-
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <!--  -->
-    <script>
-        function sendEmail()
-        {
-            Email.send({
-                SecureToken : "0bb97219-a397-47f9-8d7e-131b648bbd82",
-                To : "raheem.dev.cyrano@gmail.com",
-                From : "contact.cyranoc@gmail.com",
-                Subject : document.getElementById('subject').value,
-                Body : "Name : " + document.getElementById("name").value
-                        + "<br /> Sender Email : " + document.getElementById("email").value
-                        + "<br /> Phone : " + document.getElementById("phone").value
-                        + "<br /> Message : <br />" + document.getElementById("msg-body").value
-            }).then(message => alert(message)
-            );
-            
-            document.getElementById('subject').value = '';
-            document.getElementById('name').value = '';
-            document.getElementById('email').value = '';
-            document.getElementById('phone').value = '';
-            document.getElementById('msg-body').value = '';
-        }
-    </script>
-
 </body>
 </html>
 
